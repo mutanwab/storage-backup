@@ -1,4 +1,4 @@
-module storage-backup
+module github.com/mutanwab/storage-backup
 
 go 1.22.0
 
