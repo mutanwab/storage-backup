@@ -1,0 +1,3 @@
+package backup
+
+var BackupPodTemplate = ``
