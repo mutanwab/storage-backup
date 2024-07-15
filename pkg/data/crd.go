@@ -6,7 +6,7 @@ import (
 
 	//loggingv1 "github.com/kube-logging/logging-operator/pkg/sdk/logging/api/v1beta1"
 
-	"storage-backup/pkg/util/crd"
+	"github.com/mutanwab/storage-backup/pkg/util/crd"
 )
 
 func createCRDs(ctx context.Context, restConfig *rest.Config) error {

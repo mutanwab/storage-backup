@@ -10,8 +10,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 
-	"storage-backup/pkg/config"
-	"storage-backup/pkg/version"
+	"github.com/mutanwab/storage-backup/pkg/config"
+	"github.com/mutanwab/storage-backup/pkg/version"
 )
 
 type App struct {

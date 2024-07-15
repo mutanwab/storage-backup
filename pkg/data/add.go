@@ -3,7 +3,7 @@ package data
 import (
 	"context"
 
-	"storage-backup/pkg/config"
+	"github.com/mutanwab/storage-backup/pkg/config"
 )
 
 // Init adds built-in resources

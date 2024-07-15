@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"storage-backup/pkg/config"
+	"github.com/mutanwab/storage-backup/pkg/config"
 
 	"github.com/rancher/dynamiclistener"
 	"github.com/rancher/dynamiclistener/server"

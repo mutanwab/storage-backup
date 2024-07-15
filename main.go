@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"storage-backup/pkg/app"
-	"storage-backup/pkg/config"
-	"storage-backup/pkg/server"
+	"github.com/mutanwab/storage-backup/pkg/app"
+	"github.com/mutanwab/storage-backup/pkg/config"
+	"github.com/mutanwab/storage-backup/pkg/server"
 
 	"github.com/rancher/wrangler/pkg/signals"
 	"github.com/sirupsen/logrus"
