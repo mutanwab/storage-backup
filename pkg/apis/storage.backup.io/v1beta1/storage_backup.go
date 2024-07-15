@@ -5,28 +5,7 @@ package v1beta1
 // 1. live VM snapshot/backup should be supported, but it is prohibited on the Kubevirt side.
 // 2. restore a VM backup to a new VM should be supported.
 import (
-	"github.com/rancher/wrangler/pkg/condition"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-)
-
-const (
-	// BackupConditionReady is the "ready" condition type
-	BackupConditionReady condition.Cond = "Ready"
-
-	// ConditionProgressing is the "progressing" condition type
-	BackupConditionProgressing condition.Cond = "InProgress"
-)
-
-// DeletionPolicy defines that to do with resources when VirtualMachineRestore is deleted
-type DeletionPolicy string
-
-const (
-	// VirtualMachineRestoreDelete is the default and causes the
-	// VirtualMachineRestore deleted resources like PVC to be deleted
-	VirtualMachineRestoreDelete DeletionPolicy = "delete"
-
-	// VirtualMachineRestoreRetain causes the VirtualMachineRestore deleted resources like PVC to be retained
-	VirtualMachineRestoreRetain DeletionPolicy = "retain"
 )
 
 // +genclient
